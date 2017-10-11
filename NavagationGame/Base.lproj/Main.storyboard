@@ -13,7 +13,7 @@
         <!--Front Door-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home_id" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,12 +42,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Front Door" id="iSl-gx-Qy0">
-                        <barButtonItem key="rightBarButtonItem" title="Home" id="k30-IT-b4v"/>
-                        <connections>
-                            <outlet property="rightBarButtonItem" destination="k30-IT-b4v" id="gO3-Jp-5r9"/>
-                        </connections>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Front Door" id="iSl-gx-Qy0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -197,7 +192,7 @@
         <!--Kitchen-->
         <scene sceneID="L1z-Dc-DYp">
             <objects>
-                <viewController id="xjx-mw-Owl" sceneMemberID="viewController">
+                <viewController id="xjx-mw-Owl" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LHN-5y-t4Q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,7 +230,7 @@
         <!--Bedroom-->
         <scene sceneID="ue0-L0-7eC">
             <objects>
-                <viewController id="bQ7-EY-a76" sceneMemberID="viewController">
+                <viewController id="bQ7-EY-a76" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LvS-qt-hzj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,7 +259,7 @@
         <!--Cursed Chalice-->
         <scene sceneID="4Q3-3Q-viT">
             <objects>
-                <viewController id="Auj-dt-s6N" sceneMemberID="viewController">
+                <viewController id="Auj-dt-s6N" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zod-HS-Lt9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,7 +288,7 @@
         <!--Generator-->
         <scene sceneID="yBg-4a-zJy">
             <objects>
-                <viewController id="bJ4-pL-7EO" sceneMemberID="viewController">
+                <viewController id="bJ4-pL-7EO" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cbn-Si-Meu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -360,7 +355,7 @@
         <!--Secret Passage-->
         <scene sceneID="6lw-Qo-fdP">
             <objects>
-                <viewController id="Y6T-xV-ws3" sceneMemberID="viewController">
+                <viewController id="Y6T-xV-ws3" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mlw-tK-MMK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -416,7 +411,7 @@
         <!--Bathroom-->
         <scene sceneID="jic-dD-NLT">
             <objects>
-                <viewController id="fzv-Ud-zyd" sceneMemberID="viewController">
+                <viewController id="fzv-Ud-zyd" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fge-4j-wSk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -445,7 +440,7 @@
         <!--Back Porch-->
         <scene sceneID="do8-pJ-O5R">
             <objects>
-                <viewController id="o12-d1-PdV" sceneMemberID="viewController">
+                <viewController id="o12-d1-PdV" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PMC-A7-heV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -474,7 +469,7 @@
         <!--Dungeon-->
         <scene sceneID="S9V-Ex-27f">
             <objects>
-                <viewController id="idw-zy-aua" sceneMemberID="viewController">
+                <viewController id="idw-zy-aua" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f3L-0b-FIM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -503,7 +498,7 @@
         <!--Labratory-->
         <scene sceneID="YI2-WU-bQH">
             <objects>
-                <viewController id="3UD-We-Llt" sceneMemberID="viewController">
+                <viewController id="3UD-We-Llt" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="emC-uj-st8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -541,7 +536,7 @@
         <!--Mysterious Lake-->
         <scene sceneID="83z-9u-3AC">
             <objects>
-                <viewController id="kKX-Vp-vGw" sceneMemberID="viewController">
+                <viewController id="kKX-Vp-vGw" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fAU-dt-3Su">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
